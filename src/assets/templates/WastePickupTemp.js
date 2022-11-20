@@ -51,7 +51,7 @@ const WastePickupTemp = () => {
     if (response.code === "00") {
       setTimeout(() => {
         navigate("/success");
-      }, 2000);
+      }, 5000);
     }
   };
 
