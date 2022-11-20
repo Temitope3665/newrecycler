@@ -1,4 +1,4 @@
-export const locations = [
+const locationList = [
   {name: "Anthony Village", amt: "3500.00"},
   {name: "Yaba", amt: "3500.00"},
   {name: "Ajao Estate", amt: "3000.00"},
@@ -24,3 +24,5 @@ export const locations = [
   {name: "Ebute Metta", amt: "3500.00"},
   {name: "Others", amt: "4500.00"},
 ];
+
+export default locationList;
