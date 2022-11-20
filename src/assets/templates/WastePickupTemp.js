@@ -13,7 +13,7 @@ import SeerbitCheckout from "seerbit-reactjs";
 import CustomButton from "../../components/CustomButton/customButton";
 import NavBar from "../../components/Navbar/navbar";
 import TextInput from "../../components/TextInputs/TextInput";
-import locationList, { locations } from "../../utils/constants";
+import locationList from "../../utils/constants";
 
 const WastePickupTemp = () => {
   const navigate = useNavigate();
@@ -106,7 +106,7 @@ const WastePickupTemp = () => {
                 value={fullAddress}
               />
 
-              <FormControl mt="20px">
+              <FormControl mt="10px">
                 <FormLabel color="brand.dark" fontSize="14px" fontWeight="500">
                   Location
                 </FormLabel>
