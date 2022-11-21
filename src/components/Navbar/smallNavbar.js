@@ -19,7 +19,7 @@ const SmallNavbar = () => {
             mr="50px"
             style={{ transition: "all 0.8s ease" }}
             cursor="pointer"
-            _hover={{ color: "brand.yellow" }}
+            _hover={{ color: "brand.primary" }}
             mt={{ base: "20px", lg: "0" }}
           >
             How it Works
@@ -27,7 +27,7 @@ const SmallNavbar = () => {
           <Text
             style={{ transition: "all 0.8s ease" }}
             cursor="pointer"
-            _hover={{ color: "brand.yellow" }}
+            _hover={{ color: "brand.primary" }}
             mt={{ base: "20px", lg: "0" }}
           >
             About NewRecycler
