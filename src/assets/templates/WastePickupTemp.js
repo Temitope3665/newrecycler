@@ -27,10 +27,12 @@ const WastePickupTemp = () => {
 
   const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
+  const currRef = new Date().getTime();
+
   const state = {
     public_key: publicKey,
     amount: amount,
-    tranref: new Date().getTime(),
+    tranref: currRef,
     customization: {
       theme: {
         border_color: "#F0F2F5",
