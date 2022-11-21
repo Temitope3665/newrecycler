@@ -64,12 +64,12 @@ const WastePickupTemp = () => {
       <NavBar />
 
       <Box p="15px 80px">
-        <Text fontSize="30px" mt="20px">
+        <Text fontSize={{ base: "20px", lg: "30px"}} mt="20px">
           General Information
         </Text>
         <form>
           <Box border="1px solid #F0F2F5" w="100%">
-            <SimpleGrid columns={2} gap="20px" borderRadius="8px" p="20px">
+            <SimpleGrid columns={{ base: 1, lg: 2 }} gap="20px" borderRadius="8px" p="20px">
               <TextInput
                 label="First Name"
                 placeholder="Enter your first name"
