@@ -27,14 +27,10 @@ const WastePickupTemp = () => {
 
   const publicKey = process.env.REACT_APP_PUBLIC_KEY;
 
-  // const currRef = new Date().getTime();
-
-  // 1668988951373
-
   const state = {
     public_key: publicKey,
     amount: amount,
-    tranref: 2067389933001,
+    tranref: new Date().getTime(),
     customization: {
       theme: {
         border_color: "#F0F2F5",
@@ -179,7 +175,7 @@ const WastePickupTemp = () => {
                 <SeerbitCheckout
                   className="btn seerbit-btn"
                   type="div"
-                  tranref={amount}
+                  tranref={state.tranref}
                   currency={"NGN"}
                   description={"Dispose bin"}
                   country={"NG"}
